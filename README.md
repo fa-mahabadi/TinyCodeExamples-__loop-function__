@@ -1,6 +1,7 @@
 <h2>Explain :</h2>
 <h4>This repository contains several small projects. Rings, cache and files are used in these projects</h4>
-
+<br>
+<br>
 <ul>
 <li> compact password</li>
 <p>The algorithm counts the number of repetitions of all digits in the string, deletes the repeated digits and writes the number of repetitions of each digit (provided that it is repeated at least 2 times) in the input string and finally the numerical string Sorts in ascending order. 
