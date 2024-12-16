@@ -25,3 +25,4 @@ print(f"between_17_and_20: {between_17_and_20}")
 print(f"between_10_and_0: {between_10_and_0}")
 student = input("Enter student name:")
 search_student(student)
+
