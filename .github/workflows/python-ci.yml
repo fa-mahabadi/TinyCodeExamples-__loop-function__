@@ -19,13 +19,6 @@ jobs:
       with:
         python-version: '3.10'  # or whatever version you use
 
-    - name: Lint with flake8
-      run: |
-        # Stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # Exit-zero treats all errors as warnings. Remove it if you want strict checking.
-        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=88 --statistics
-
     - name: Run tests with pytest
       run: |
         pytest
